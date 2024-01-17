@@ -1,0 +1,17 @@
+.organization-list {
+  border: 1px solid #ccc;
+  max-height: max-content;
+  overflow-y: auto;
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+}
+
+.organization-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.organization-item.selected {
+  background-color: lightblue; /* 선택된 인덱스의 배경색 설정 */
+}
